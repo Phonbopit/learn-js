@@ -6,7 +6,14 @@ const recursive = (value) => {
 }
 
 const reduce = (value) => {
-  return value;
+  let arr = [];
+  for (let i = 0; i < value; i++) {
+    arr.push(value - i);
+  }
+
+  return arr.reduce((prev, curr) => {
+    return prev * curr;
+  });
 }
 
 module.exports = {

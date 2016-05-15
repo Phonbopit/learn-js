@@ -10,7 +10,7 @@ describe('Factorial', () => {
     expect(facRecursive(3)).to.equal(6);
   });
 
-  it('facReduce(5) should return 120', () => {
-    expect(facReduce(5)).to.equal(120);
+  it('facReduce(8) should return 40320', () => {
+    expect(facReduce(8)).to.equal(40320);
   });
 });
