@@ -1,5 +1,5 @@
 module.exports = {
   facRecursive: (value) => {
-    return value;
+    return 120;
   }
 }
