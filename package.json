@@ -1,6 +1,10 @@
 {
   "name": "learn-js",
   "version": "1.0.0",
+  "scripts": {
+    "test": "mocha --recursive --compilers js:babel-core/register",
+    "test:watch": "npm run test -- --watch"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.8.0",
